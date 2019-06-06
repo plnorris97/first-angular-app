@@ -7,8 +7,8 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CardComponent implements OnInit {
   @Input() card:any;
-  name: string = 'Joe';
-  myAdjective: string = 'happy';
+  addName: string;
+  // myAdjective: string = 'happy';
 
   constructor() { }
 

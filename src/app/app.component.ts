@@ -16,7 +16,9 @@ export class AppComponent {
     {text: 'Card 6'},
     {text: 'Card 7'},
     {text: 'Card 8'},
-    {text: 'Card 9'},
-    {text: 'Card 10'},
+    {text: 'Card 9'}
   ];
+  addCard(cardText: string) {
+    this.cards.push({text: cardText});
+  }
 }
